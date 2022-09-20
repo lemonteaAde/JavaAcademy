@@ -9,12 +9,13 @@ public class DoWhileExample {
 
 		Scanner scanner = new Scanner(System.in);
 		String inputString;
-
+		
+		//do{ 실행문; } while(조건);
 		do {
 			System.out.print(">");
-			inputString = scanner.nextLine();
-			System.out.println(inputString);
-		} while( ! inputString.equals("q") );
+			inputString = scanner.nextLine(); //키보드로 부터 한 줄 입력받기
+			System.out.println(inputString);  // 입력값 출력
+		} while( ! inputString.equals("q") ); //입력값이 "q"가 아니면 계속 반복
 
 		System.out.println();
 		System.out.println("프로그램 종료");
