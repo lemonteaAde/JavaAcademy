@@ -12,7 +12,10 @@ public class TestExam02 {
 		//4_2. 문제에 주어진 switch문을 Expression(표현식)으로 변경해서 작성해 보시오.
 		String grade = "B";
 		
-		int score1 = switch(grade) {
+		
+		int score1=grade=="A"?100:(grade=="B"?80:60);
+		
+		/*int score1 = switch(grade) {
 		case "A" -> 100;
 		case "B" -> {
 			int result = 100 - 20;
@@ -21,7 +24,7 @@ public class TestExam02 {
 		}
 		default -> 60;
 	};
-	System.out.println("score1: " + score1);
+	System.out.println("score1: " + score1);*/
 
 	
 	//4_3. for 문을 이용해서 1부터 100까지의 정수 중에서 3의 배수의 총합을 출력하는 코드를 작성
