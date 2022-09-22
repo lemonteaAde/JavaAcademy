@@ -4,9 +4,9 @@ public class MultiDimensionalArrayByNewExample3 {
 
 	public static void main(String[] args) {
 
-		String[] names= {"홍길동", "일지매", "임꺽정"};
+		String[] names= {"홍길동", "일지매", "임꺽정", "김기남"};
 
-		int[][] scores = {{80, 83, 85}, {86, 90, 92}, {88, 87, 95}};
+		int[][] scores = {{80, 83, 85}, {86, 90, 92}, {88, 87, 95}, {80, 87, 90}};
 
 		System.out.println("-----------------성적표-----------------");
 
